@@ -1,622 +1,629 @@
 body {
-    margin: o auto;
-    font-size: 17px;
-    line-height: 1.47059;
-    font-weight: 400;
-    letter-spacing: -0.022em;
-    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
-      "Arial", sans-serif;
-    background-color: #fff;
-    color: #1d1d1f;
-    font-style: normal;
-  }
-  a {
-    color: #2997ff;
-  }
-  p {
-    margin-bottom: 0;
-  }
-  .icon-after {
-    width: 13px;
-  }
-  h2,
-  h3,
-  h4,
-  h5 {
-    margin: 0;
-    padding: 0;
-  }
-  
-  .collection-module {
-    display: grid;
-      grid-template-columns: 50%  50%;
+  margin: o auto;
+  font-size: 17px;
+  line-height: 1.47059;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  background-color: #fff;
+  color: #1d1d1f;
+  font-style: normal;
+}
+a {
+  color: #2997ff;
+}
+p {
+  margin-bottom: 0;
+}
+.icon-after {
+  width: 13px;
+}
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  padding: 0;
+}
+
+.collection-module {
+  display: grid;
+    grid-template-columns: 50%  50%;
+  width: 100%;
+  grid-gap: 5px;
+ 
+}
+
+/* figure {
+  display: block;
+  margin: 0;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+} */
+
+.globalheader {
+  padding-top: ;
+}
+
+.globalnav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 9999;
+  display: block;
+  margin: 0;
+  width: 100%;
+  min-width: 320px;
+  height: 48px;
+  max-height: 44px;
+  padding-top: ;
+  background: black;
+}
+.globalnav-content {
+     margin: 0 auto;
+    box-sizing: border-box;
     width: 100%;
-    grid-gap: 5px;
-   
-  }
+    max-width: 1313px;
+}
+.globalnav-list {
+  margin: 0 -8px;
+  width: auto;
+  height: 44px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.globalnav-item {
+  box-sizing: border-box;
+  height: 44px;
+}
+.globalnav-item path {
+  fill: rgba(255, 255, 255, 0.8);
+}
+ul.no-bullets {
+  list-style-type: none;
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+}
+
+.globalnav-item {
+  box-sizing: border-box;
+  height: 44px;
+}
+.globalnav-item path {
+  fill: rgba(255, 255, 255, 0.8);
+}
+
+.main {
+  max-width: 2560px;
+  margin: 0 auto;
+  background: white;
+}
+
+.module-content {
+  background: white;
+  position: relative;
+}
+
+
+.homepage-section {
+  width: 100%;
+  margin-bottom: 15px;
+  background: white;
+    margin-left: -8px;
+
+ 
+}
+
+.theme-dark.headline {
+  color: #f5f5f7;
+}
+
+.cta-links {
+    display: inline-block;
+
   
-  /* figure {
-    display: block;
-    margin: 0;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 40px;
-    margin-inline-end: 40px;
-  } */
+}
+
+.hyper-links {
+  margin-right: 23px;
+  margin-top: 15px;
+  position: relative;
+}
+
+.unit-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+  text-align: center;
+  position: relative;
+  z-index: 3;
+}
+
+.unit-copy-wrapper {
+  position: relative; 
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2; 
   
-  .globalheader {
-    padding-top: ;
-  }
-  
-  .globalnav {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
+  padding-top: ;
+  margin-top: 85px;
+}
+
+.unit-image {
+  object-fit: cover;
+}
+
+
+.unit-image-wrapper {
+  position: relative;
+  z-index: 2; 
+  padding-top: 20px; 
+}
+
+.unit-image-iphone-15-pro-hero-iphone15pro {
+  width: 100%;
+  height: 624px;
+  background: url("https://www.apple.com/v/home/be/images/heroes/iphone-15-pro/hero_iphone15pro__i70z9oz3hj2i_medium_2x.jpg")
+    no-repeat center center;
+  background-size: cover;
+  margin-bottom: 15px;
+}
+
+.unit-image-iphone-15-hero-iphone15 {
+  width: 100%;
+  height: 624px;
+  background: url("https://www.apple.com/v/home/be/images/heroes/iphone-15/hero_iphone15_announce__uuemlcwczn6u_large_2x.jpg")
+    no-repeat center center;
+  background-size: cover;
+  margin-top: 15px;
+}
+
+.unit-image-iphone-15 {
+  width: 100%;
+  height: 624px;
+  background: url("https://www.apple.com/v/home/be/images/heroes/iphone-15/hero_iphone15_announce__uuemlcwczn6u_large_2x.jpg")
+    no-repeat center center;)
+    no-repeat center center;
+  background-size: cover;
+      margin-top: 20px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+
+
+.unit-image-watch {
+  width: 100%;
+  height: 624px;
+  background: url("https://www.apple.com/v/home/be/images/heroes/apple-watch-series-9/hero_apple_watch_series_9_order__d0fi9mb84dci_large_2x.jpg")
+    no-repeat center center;
+  background-size: cover;
+}
+
+.watch-logo {
+    display: inline-block;
+
+    position: relative;
     z-index: 9999;
-    display: block;
-    margin: 0;
-    width: 100%;
-    min-width: 320px;
-    height: 48px;
-    max-height: 44px;
-    padding-top: ;
-    background: black;
-  }
-  .globalnav-content {
-    margin: 0 auto;
-    box-sizing: border-box;
-    width: 100%;
-    max-width: 1024px;
-    padding: 0 22px;
-  }
-  .globalnav-list {
-    margin: 0 -8px;
-    width: auto;
-    height: 44px;
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-  }
-  .globalnav-item {
-    box-sizing: border-box;
-    height: 44px;
-  }
-  .globalnav-item path {
-    fill: rgba(255, 255, 255, 0.8);
-  }
-  ul.no-bullets {
-    list-style-type: none;
-    padding: 0; /* Remove padding */
-    margin: 0; /* Remove margins */
-  }
-  
-  .globalnav-item {
-    box-sizing: border-box;
-    height: 44px;
-  }
-  .globalnav-item path {
-    fill: rgba(255, 255, 255, 0.8);
-  }
-  
-  .main {
-    max-width: 2560px;
-    margin: 0 auto;
-    background: white;
-  }
-  
-  .module-content {
-    background: white;
-    position: relative;
-  }
-  
-  
-  .homepage-section {
-    width: 100%;
-    margin-bottom: 15px;
-    background: white;
-      margin-left: -8px;
-  
-   
-  }
-  
-  .theme-dark.headline {
-    color: #f5f5f7;
-  }
-  
-  .cta-links {
-      display: inline-block;
-  
+    width: 10px;
+    height: 10px;
+}
+
+
+.watch-logo img {
+    position: absolute;
+      top: -70px;
+    left: -80px;
+
     
-  }
+    width: 180px; 
+    height: 100px !important;
+    object-fit: contain; 
+}
+
+
+
+
+
+
+.white {
+  color: white;
+}
+
+.collection-module {
+  display: grid;
+    grid-template-columns: 50%  50%;
+  width: 100%;
+  grid-gap: 12px;
+ 
+}
+
+.bottom-wrapper {
+  padding-top: 300px;
+}
+
+
+
+
+
+
+
+.vision-subhead {
+ 
+    font-size: 21px;
+    line-height: 1.10722;
+    font-weight: 400;
+    letter-spacing: 0.004em;
+    margin-top: 10px;
+  margin-bottom: 0;
+    magin-right: 164.5px;
+    }
+
+.margin-top {
   
-  .hyper-links {
-    margin-right: 23px;
-    margin-top: 15px;
-    position: relative;
-  }
-  
-  .unit-wrapper {
-    display: flex;
-    flex-direction: column;
-    margin-top: 0;
-    text-align: center;
-    position: relative;
-    z-index: 3;
-  }
-  
-  .unit-copy-wrapper {
-    position: relative; 
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 2; 
-    
-    padding-top: ;
-    margin-top: 85px;
-  }
-  
-  .unit-image {
-    object-fit: cover;
-  }
+  margin-top: 50px;
   
   
-  .unit-image-wrapper {
-    position: relative;
-    z-index: 2; 
-    padding-top: 20px; 
-  }
+}
+
+
+.unit-image.ipad-pro {
   
-  .unit-image-iphone-15-pro-hero-iphone15pro {
+  position: relative;
+  
+ 
+  background: url("https://www.apple.com/v/home/be/images/promos/ipad-pro/promo_ipadpro_refresh__evi9utuixwuq_large_2x.jpg")
+    no-repeat center center;
+  
+
+  background-size: cover;
+  height: 680px;  
     width: 100%;
-    height: 624px;
-    background: url("https://www.apple.com/v/home/be/images/heroes/iphone-15-pro/hero_iphone15pro__i70z9oz3hj2i_medium_2x.jpg")
-      no-repeat center center;
-    background-size: cover;
-    margin-bottom: 15px;
-  }
+
+        
+
   
-  .unit-image-iphone-15-hero-iphone15 {
-    width: 100%;
-    height: 624px;
-    background: url("https://www.apple.com/v/home/be/images/heroes/iphone-15/hero_iphone15_announce__uuemlcwczn6u_large_2x.jpg")
-      no-repeat center center;
-    background-size: cover;
-    margin-top: 15px;
-  }
+}
+
+
+
+
+
+
+.unit-image.vision-pro {
   
-  .unit-image-iphone-15 {
-    width: 100%;
-    height: 624px;
-    background: url("https://www.apple.com/v/home/be/images/heroes/iphone-15/hero_iphone15_announce__uuemlcwczn6u_large_2x.jpg")
-      no-repeat center center;)
-      no-repeat center center;
-    background-size: cover;
-        margin-top: 20px;
-    margin-bottom: 15px;
-    margin-top: 15px;
-  }
-  
-  
-  
-  .unit-image-watch {
-    width: 100%;
-    height: 624px;
-    background: url("https://www.apple.com/v/home/be/images/heroes/apple-watch-series-9/hero_apple_watch_series_9_order__d0fi9mb84dci_large_2x.jpg")
-      no-repeat center center;
-    background-size: cover;
-  }
-  
-  .watch-logo {
-      display: inline-block;
-  
-      position: relative;
-      z-index: 9999;
-      width: 10px;
-      height: 10px;
-  }
-  
-  
-  .watch-logo img {
-      position: absolute;
-        top: -70px;
-      left: -80px;
-  
-      
-      width: 180px; 
-      height: 100px !important;
-      object-fit: contain; 
-  }
-  
-  
-  
-  
-  
-  
-  .white {
-    color: white;
-  }
-  
-  .collection-module {
-    display: grid;
-      grid-template-columns: 50%  50%;
-    width: 100%;
-    grid-gap: 12px;
-   
-  }
-  
-  .bottom-wrapper {
-    padding-top: 300px;
-  }
-  
-  
-  
-  
-  
-  
-  
-  .vision-subhead {
-   
-      font-size: 21px;
-      line-height: 1.10722;
-      font-weight: 400;
-      letter-spacing: 0.004em;
-      margin-top: 10px;
-    margin-bottom: 0;
-      magin-right: 164.5px;
-      }
-  
-  .margin-top {
-    
-    margin-top: 50px;
-    
-    
-  }
-  
-  
-  .unit-image.ipad-pro {
-    
-    position: relative;
-    
-   
-    background: url("https://www.apple.com/v/home/be/images/promos/ipad-pro/promo_ipadpro_refresh__evi9utuixwuq_large_2x.jpg")
-      no-repeat center center;
-    
+  background: url("https://www.apple.com/v/home/be/images/promos/apple-vision-pro/promo_apple_vision_pro__f4v4zp0sum2y_large_2x.jpg ")
+    no-repeat center center;
   
     background-size: cover;
     height: 680px;  
-      width: 100%;
-  
-          
-  
-    
-  }
+    width: 100%;
+
+
+
   
   
+}
+
+
+.unit-image.macbook{
+  
+  background: url("https://www.apple.com/v/home/be/images/promos/macbook-air-15/promo_macbook_air_15_midnight__3zojl1nanrme_large_2x.jpg")
+    no-repeat center center;
+  
+    background-size: cover;
+  
+    height: 680px;  
+    width: 100%;
+
+
+
+  
+  
+}
+
+
+.unit-image.airpods {
+  
+  background: url("https://www.apple.com/v/home/be/images/promos/airpods-pro/promo_airpods_pro_order__d8xv36p4uwae_large_2x.jpg ")
+    no-repeat center center;
+    background-size: cover;
+    height: 680px;
+    width: 100%;
+
+
+
+  
+}
+
+
+.unit-image.trade-in{
+  
+  background: url(" https://www.apple.com/v/home/be/images/promos/iphone-tradein/promo_iphone_tradein__bugw15ka691e_large_2x.jpg ")
+    no-repeat center center;
+  
+    background-size: cover;
+    height: 680px;  
+    width: 100%;
+
+
+
+  
+}
+
+
+
+.unit-image.card{
+  
+  background: url(" https://www.apple.com/v/home/be/images/promos/apple-card/tile__cauwwcyyn9hy_large_2x.jpg " )
+    no-repeat center center;
+  
+    background-size: cover;
+    height: 680px;  
+    width: 100%;
+
+
+
   
   
   
-  
-  .unit-image.vision-pro {
-    
-    background: url("https://www.apple.com/v/home/be/images/promos/apple-vision-pro/promo_apple_vision_pro__f4v4zp0sum2y_large_2x.jpg ")
-      no-repeat center center;
-    
+}
+
+
+
+
+.logo-iphone-tradein-image {
+    background: url(https://www.apple.com/v/home/be/images/logos/iphone-tradein/logo_tradein__d1fpktgipvki_large_2x.png) no-repeat center center;
+    background-size: 146px 32px;
+    height: 32px;
+  margin-bottom: 12px;
+}
+
+.logo-image-card {
+    background: url(https://www.apple.com/v/home/be/images/logos/apple-card/logo__dcojfwkzna2q_large_2x.png ) no-repeat center center;
+    background-size: 114px 32px;
+    height: 32px;
+  margin-bottom: 10px;
+}
+
+
+.logo-vision-pro {
+    background: url(https://www.apple.com/v/home/be/images/logos/apple-vision-pro/promo_logo_apple_vision_pro__90zi46p7dc2y_large_2x.png) no-repeat center center;
+    background-size: 196px 41px;
+    height: 61px;
+}
+
+
+
+.m2-chip {
+  position: absolute;
+  background: url(https://www.apple.com/v/home/be/images/logos/ipad-pro/promo_m2_chip__enw2kz91lsuq_large_2x.png)
+    no-repeat center center;
       background-size: cover;
-      height: 680px;  
-      width: 100%;
+  height: 35px;
+  width: 40px;
+  margin-left: 5px;
+
+
   
   
-  
+}
+
+.subhead {
+  margin-bottom: 10px;
+      font-size: 21px;
     
-    
-  }
-  
-  
-  .unit-image.macbook{
-    
-    background: url("https://www.apple.com/v/home/be/images/promos/macbook-air-15/promo_macbook_air_15_midnight__3zojl1nanrme_large_2x.jpg")
-      no-repeat center center;
-    
-      background-size: cover;
-    
-      height: 680px;  
-      width: 100%;
-  
-  
-  
-    
-    
-  }
-  
-  
-  .unit-image.airpods {
-    
-    background: url("https://www.apple.com/v/home/be/images/promos/airpods-pro/promo_airpods_pro_order__d8xv36p4uwae_large_2x.jpg ")
-      no-repeat center center;
-      background-size: cover;
-      height: 680px;
-      width: 100%;
-  
-  
-  
-    
-  }
-  
-  
-  .unit-image.trade-in{
-    
-    background: url(" https://www.apple.com/v/home/be/images/promos/iphone-tradein/promo_iphone_tradein__bugw15ka691e_large_2x.jpg ")
-      no-repeat center center;
-    
-      background-size: cover;
-      height: 680px;  
-      width: 100%;
-  
-  
-  
-    
-  }
-  
-  
-  
-  .unit-image.card{
-    
-    background: url(" https://www.apple.com/v/home/be/images/promos/apple-card/tile__cauwwcyyn9hy_large_2x.jpg " )
-      no-repeat center center;
-    
-      background-size: cover;
-      height: 680px;  
-      width: 100%;
-  
-  
-  
-    
-    
-    
-  }
-  
-  
-  
-  
-  .logo-iphone-tradein-image {
-      background: url(https://www.apple.com/v/home/be/images/logos/iphone-tradein/logo_tradein__d1fpktgipvki_large_2x.png) no-repeat center center;
-      background-size: 146px 32px;
-      height: 32px;
-    margin-bottom: 12px;
-  }
-  
-  .logo-image-card {
-      background: url(https://www.apple.com/v/home/be/images/logos/apple-card/logo__dcojfwkzna2q_large_2x.png ) no-repeat center center;
-      background-size: 114px 32px;
-      height: 32px;
-    margin-bottom: 10px;
-  }
-  
-  
-  .logo-vision-pro {
-      background: url(https://www.apple.com/v/home/be/images/logos/apple-vision-pro/promo_logo_apple_vision_pro__90zi46p7dc2y_large_2x.png) no-repeat center center;
-      background-size: 196px 41px;
-      height: 61px;
-  }
-  
-  
-  
-  .m2-chip {
-    position: absolute;
-    background: url(https://www.apple.com/v/home/be/images/logos/ipad-pro/promo_m2_chip__enw2kz91lsuq_large_2x.png)
-      no-repeat center center;
-        background-size: cover;
-    height: 35px;
-    width: 40px;
-    margin-left: 5px;
-  
-  
-    
-    
-  }
-  
-  .subhead {
-    margin-bottom: 10px;
-        font-size: 21px;
-      
-      font-weight: 400;
-  }
-  
-  .headline {
-        font-size: 56px;
-      font-weight: 600;
-    
-    
-  }
-  
-  
-  .icon-after {
-    display:inline-block;
-      width: 13px;
-    position:relative;
-    top: 1px;
-  }
-  
-  
-  .no-underline{
-    text-decoration: none;
-    color: rgb(90, 90, 90);
-  
-  }
-  
-  .vision-link {
-    margin-left: 25px;
-  }
-  
-  .dark-blue {
-           color: rgb(17 131 245);
-      font-weight: 400;
-  }
-  }
-  
-  .vision-link {
-    padding-left: ;
-  }
-  
-  
-  ul , li , h3{
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .ac-gf-content {
-     margin: auto 80px; 
-    padding: 0 25px;
-       font-size: 10px;
-  
-  /*  might adjust margin   */
-  }
-   
-  .ac-gf-directory {
-   
-    
-    
-  }
-  
-  .ac-gf-directory.with-5-columns {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 20px;
-  }
-  
-  .ac-gf-directory-column {
-    flex-basis: 25%;
-    
-  }
-  
-  .ac-gf-directory-column-section-title-text {
-    display: inline-block;
-    margin-bottom: 0.8em;
-    margin-right: 20px;
+    font-weight: 400;
+}
+
+.headline {
+      font-size: 56px;
     font-weight: 600;
-    font-spacing: 12px;
-    letter-spacing: -.01em;
-    
-  }
   
-  .ac-gf-directory-column-section-list {
-      margin-right: 20px;
-      list-style: none;
-      padding: 0;
-      font-size: 13px;
-    
-  }
   
-  .ac-gf-directory-column-section-item {
-    display: block;
-    margin-bottom: .8em;
-    
-  }
-  
-  .ac-gf-directory-column-section-link {
-    text-decoration:none;
-    color: rgb(90, 90, 90);
+}
+
+
+.icon-after {
+  display:inline-block;
+    width: 13px;
+  position:relative;
+  top: 1px;
+}
+
+
+.no-underline{
+  text-decoration: none;
+  color: rgb(90, 90, 90);
+
+}
+
+.vision-link {
+  margin-left: 25px;
+}
+
+.dark-blue {
+         color: rgb(17 131 245);
     font-weight: 400;
-    
-   }
-  
-  .ac-gf-sosumi {
-        border-bottom: 1px solid ;
-      padding: 17px 0 11px;
-       font-size: 10px;
-      color: rgb(90, 90, 90);
-  
-    
-  }
-  .ac-gf-sosumi li {
-    margin-bottom: 8px;
-    line-height: 1.3;
-    font-size: 13px;
-    letter-spacing: -.01em;
-    
-    
-  }
-  
-  .footnote {
-    
-  }
-  
-  
-  .ac-gf-content {
+}
+}
+
+.vision-link {
+  padding-left: ;
+}
+
+
+ul , li , h3{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ac-gf-content {
      font-size: 10px;
-    font-weight: 400;
-    
-  }
+   font-size: 10px;
+  font-weight: 400;
+  padding-left: 25px;
+
+/*  might adjust margin   */
+}
+
+
+ 
+.ac-gf-directory {
+ 
   
   
-  .ac-gf-footer-shop {
-    padding-top: 50px;
-    padding-bottom: 7px;
-    border-bottom:  1px solid;
-      text-decoration: none;
+}
+
+.ac-gf-directory.with-5-columns {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.ac-gf-directory-column {
+  flex-basis: 25%;
+  
+}
+
+.ac-gf-directory-column-section-title-text {
+  display: inline-block;
+  margin-bottom: 0.8em;
+  margin-right: 20px;
+  font-weight: 600;
+  font-spacing: 12px;
+  letter-spacing: -.01em;
+  
+}
+
+.ac-gf-directory-column-section-list {
+    margin-right: 20px;
+    list-style: none;
+    padding: 0;
+    font-size: 13px;
+  
+}
+
+.ac-gf-directory-column-section-item {
+  display: block;
+  margin-bottom: .8em;
+  
+}
+
+.ac-gf-directory-column-section-link {
+  text-decoration:none;
+  color: rgb(90, 90, 90);
+  font-weight: 400;
+  
+ }
+
+.ac-gf-sosumi {
+      border-bottom: 1px solid ;
+    padding: 17px 0 11px;
+     font-size: 10px;
     color: rgb(90, 90, 90);
-  }
+
   
-  .ac-gf-footer-locale {
-    float: right;
-      margin-top: 5px;
+}
+.ac-gf-sosumi li {
+  margin-bottom: 8px;
+  line-height: 1.3;
+  font-size: 13px;
+  letter-spacing: -.01em;
+  
+  
+}
+
+.footnote {
+  
+}
+
+
+
+
+
+.ac-gf-footer-shop {
+  padding-top: 50px;
+  padding-bottom: 7px;
+  border-bottom:  1px solid;
+    text-decoration: none;
+  color: rgb(90, 90, 90);
+}
+
+.ac-gf-footer-locale {
+  float: right;
+    margin-top: 5px;
+    position: relative;
+    top: 0;
+    z-index: 2;
+    white-space: nowrap;
+}
+  
+  
+}
+
+
+.ac-gf-footer-legal {
       position: relative;
-      top: 0;
-      z-index: 2;
-      white-space: nowrap;
-  }
-    
-    
-  }
+    top: -5px;
+    margin-inline-start: 0;
+    z-index: 1;
   
   
-  .ac-gf-footer-legal {
-        position: relative;
-      top: -5px;
-      margin-inline-start: 0;
-      z-index: 1;
-    
-    
-  }
+}
+
+.ac-gf-footer-legal-links-item{
+         border-right: 1px solid;
+    margin-right: 14px;
+    display: inline-block;
+    margin-top: 5px;
   
-  .ac-gf-footer-legal-links-item{
-           border-right: 1px solid;
-      margin-right: 14px;
-      display: inline-block;
-      margin-top: 5px;
-    
-  }
+}
+
+.no-right-vertical-bar {
+    margin-right: 14px;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+ac-gf-footer-legal-links{
+  margin-right: 30px;
+    float: left;
+    margin-top: 5px;
+    list-style-type: none;
   
-  .no-right-vertical-bar {
-      margin-right: 14px;
-      display: inline-block;
-      margin-top: 5px;
-  }
-  
-  ac-gf-footer-legal-links{
-    margin-right: 30px;
-      float: left;
-      margin-top: 5px;
-      list-style-type: none;
-    
-  }
-  
-  .ac-gf-footer-legal-link{
-        padding-right: 10px;
-      display: inline-block;
-      white-space: nowrap;
-      text-decoration: none;
-    color: rgb(90, 90, 90);
-  }
-  
-  .ac-gf-footer-legal-copyright {
-        margin-right: 30px;
-      float: left;
-      margin-top: 5px;
-      list-style-type: none;
-  }
-  
-  /* .js{
-  } */
+}
+
+.ac-gf-footer-legal-link{
+      padding-right: 10px;
+    display: inline-block;
+    white-space: nowrap;
+    text-decoration: none;
+  color: rgb(90, 90, 90);
+}
+
+.ac-gf-footer-legal-copyright {
+      margin-right: 30px;
+    float: left;
+    margin-top: 5px;
+    list-style-type: none;
+}
+
+/* .js{
+} */
+
+
+
+footer {
+     margin: 0 auto;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1313px;
+}
